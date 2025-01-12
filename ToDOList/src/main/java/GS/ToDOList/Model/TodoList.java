@@ -26,8 +26,6 @@ public class TodoList {
         this.description = description;
     }
 
-    public TodoList() {
-    }
 
     public Long getId() {
         return id;
