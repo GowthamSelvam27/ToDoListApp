@@ -8,8 +8,6 @@ import javax.lang.model.element.Name;
 
 @Entity
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class TodoList {
 
     @Id
@@ -26,6 +24,8 @@ public class TodoList {
         this.description = description;
     }
 
+    public TodoList() {
+    }
 
     public Long getId() {
         return id;
